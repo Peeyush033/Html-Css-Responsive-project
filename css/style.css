@@ -645,6 +645,15 @@ text-transform: capitalize;
 }
     
 
+/*  selecction  */
+:is(.hero-subheading,.hero-para,.section-common--tittle,p)::selection{
+color: rgb(234, 153, 170);
+}
+
+:is(.hero-heading,.section-common-heading,h1,h2,h3)::selection{
+   background-color: rgb(138, 190, 232);
+}
+
 /* scroll animation */
 
 
