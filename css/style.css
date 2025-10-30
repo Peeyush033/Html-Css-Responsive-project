@@ -631,6 +631,12 @@ letter-spacing:0.1rem;}
     background: var(--heading-color);
 
 }
+
+:is( input,textarea){
+letter-spacing: normal;
+word-spacing: normal;
+
+}
 :is(input,textarea):focus-visible{
     outline: red solid 1px;
 }
